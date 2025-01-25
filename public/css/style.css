@@ -1,0 +1,58 @@
+.brand-text {
+    font-family: 'Prata', serif;
+    color: #009EB4;
+}
+.nav-link:hover{
+    color: #009EB4 !important;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+}
+
+/* container */
+.banner{
+    background-image: url('../img/home.jpg');
+    background-size: cover; /* Untuk mengisi seluruh area */
+    background-position: center; /* Posisi gambar di tengah-tengah */
+    height: 510px; /* Tinggi kontainer */
+}
+.container-text h2{
+    font-weight: bold;
+}
+
+/* paket wisata */
+.harga{
+    margin-bottom: 0px;
+    font-size: large;
+    font-weight: 500;
+}
+.card-text{
+    font-size: small;
+}
+
+/* dokumenatsi */
+.text-center h4{
+    margin-bottom: 0px;
+}
+.dokumentasi{
+    margin-top: 25px;
+    margin-right: 0;
+}
+.card-img-top {
+    height: 200px; /* Sesuaikan tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Untuk menjaga aspek ratio gambar */
+}
+
+/* form pemesanna */
+.border-bottom{
+    color: #009EB4;
+    font-size: 25px;
+    font-weight: bold;
+}
+.pesan{
+    padding-top: 30px;
+}

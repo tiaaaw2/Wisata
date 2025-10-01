@@ -145,11 +145,12 @@
                     <!-- END -->
 
                     <div class="row" style="margin-top: 5px;">
-                        <label class="control-label col-md-3" for="nama">Akomodasi dan Total bayar : </label>
+                        <label class="control-label col-md-3" for="nama">Harga Paket : </label>
                         <div class="col-md-4">
                             <input type="number" name="totalakomodasi" id="totalakomodasi" class="form-control"
                                 placeholder="" required readonly />
                         </div>
+                        <label class="control-label col-md-3" for="nama">Jumlah tagihan </label>
                         <div class="col-md-4">
                             <input type="number" name="totalbayar" id="totalbayar" class="form-control" required
                                 readonly />

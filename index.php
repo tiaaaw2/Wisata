@@ -68,7 +68,7 @@
             <h2>Ayo liburan bersama touro</h2>
 
             <a href="#paketwisata">
-                <button class="btn btn-warning text-light rounded-5 mt-3 " type="button"> lihat paket wisata ></button>
+                <button class="btn btn-warning text-light rounded-5 mt-3 " type="button"> lihat paket wisata </button>
             </a>
         </div>
     </div>

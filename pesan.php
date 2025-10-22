@@ -144,18 +144,25 @@
                     </div>
                     <!-- END -->
 
-                    <div class="row" style="margin-top: 5px;">
-                        <label class="control-label col-md-3" for="nama">Harga Paket : </label>
-                        <div class="col-md-4">
-                            <input type="number" name="totalakomodasi" id="totalakomodasi" class="form-control"
-                                placeholder="" required readonly />
-                        </div>
-                        <label class="control-label col-md-3" for="nama">Jumlah tagihan </label>
-                        <div class="col-md-4">
-                            <input type="number" name="totalbayar" id="totalbayar" class="form-control" required
-                                readonly />
-                        </div>
-                    </div>
+<!-- Harga Paket -->
+<div class="row" style="margin-top: 5px;">
+    <label class="control-label col-md-3" for="totalakomodasi">Harga Paket :</label>
+    <div class="col-md-8">
+        <input type="number" name="totalakomodasi" id="totalakomodasi" 
+               class="form-control" placeholder="" required readonly />
+    </div>
+</div>
+
+<!-- Jumlah Tagihan -->
+<div class="row" style="margin-top: 5px;">
+    <label class="control-label col-md-3" for="totalbayar">Jumlah Tagihan :</label>
+    <div class="col-md-8">
+        <input type="number" name="totalbayar" id="totalbayar" 
+               class="form-control" required readonly />
+    </div>
+</div>
+
+
 
                     <div class="row " style="margin-top: 10px;">
                         <div class="col-md-3">
